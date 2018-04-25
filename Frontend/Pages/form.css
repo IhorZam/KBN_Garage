@@ -159,12 +159,12 @@
   border-radius: 0px;
   box-shadow: none;
 }
+
 .btn-login:hover,
 .btn-login:focus {
   color: #fff;
   background-color: #ffd600;
 }
-
 
 .btn-register {
   background-color: #E8E9EC;
