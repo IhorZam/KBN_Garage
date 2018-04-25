@@ -3,76 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <title>KBN Garage</title>
-    <link rel="stylesheet" href="form.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet/less" type="text/css" href="main.less">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- LESS JavaScript компілятор -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
 
 </head>
 <body>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <div class="panel panel-login">
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <form id="login-form" action="#" method="post" role="form" style="display: block;">
-                                <h2>Ввійти в профіль</h2>
-                                <div class="form-group">
-                                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Логін" value="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Пароль">
-                                </div>
-                                <div class="col-xs-6 form-group pull-left checkbox">
-                                    <input id="checkbox1" type="checkbox" name="remember">
-                                    <label for="checkbox1">Запам'ятати мене</label>
-                                </div>
-                                <div class="col-xs-6 form-group pull-right">
-                                    <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Ввійти">
-                                </div>
-                            </form>
-                            <form id="register-form" action="#" method="post" role="form" style="display: none;">
-                                <h2>Реєстрація</h2>
-                                <div class="form-group">
-                                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Логін" value="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Електронна адреса" value="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Пароль">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="phone-number" id="phone-number" tabindex="2" class="form-control" placeholder="Номер телефону">
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-sm-offset-3">
-                                            <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Зареєструватись">
+<div class ="header">
+    <div class="head-logo">
+        KBN Garage
+        <div class="info">
+            Діагностика та ремонт автоелектроніки
+        </div>
+    </div>
+    <div class="buttons-line">
+        <div class="left">
+            <div class="button-top" id="home">
+                <a href="index.html">
+                    <button class="button-top">Home</button>
+                </a>
+            </div>
+            <div class="button-top" id="faq"><button class="button-top">F.A.Q</button></div>
+            <div class="button-top" id="bio"><button class="button-top">B.I.O</button></div>
+        </div>
+        <div class="right">
+            <div class="button-top" id="my-calls"><button class="button-top">Мій кабінет</button></div>
+        </div>
+    </div>
+</div>
+
+<div class="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-login">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <form id="login-form" action="#" method="post" role="form" style="display: block;">
+                                    <h2>Ввійти в профіль</h2>
+                                    <div class="form-group">
+                                        <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Логін" value="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Пароль">
+                                    </div>
+                                    <div class="rem-ent">
+                                        <div class="form-group pull-left checkbox">
+                                            <input id="checkbox1" type="checkbox" name="remember">
+                                            <label for="checkbox1">Запам'ятати мене</label>
+                                        </div>
+                                        <div class="form-group pull-right">
+                                            <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Ввійти">
                                         </div>
                                     </div>
-                                </div>
-                            </form>
+                                </form>
+                                <form id="register-form" action="#" method="post" role="form" style="display: none;">
+                                    <h2>Реєстрація</h2>
+                                    <div class="form-group">
+                                        <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Логін" value="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Електронна адреса" value="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Пароль">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="phone-number" id="phone-number" tabindex="2" class="form-control" placeholder="Номер телефону">
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-sm-offset-3">
+                                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Зареєструватись">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-xs-6 tabs">
-                            <a href="#" class="active" id="login-form-link"><div class="login">Вхід</div></a>
-                        </div>
-                        <div class="col-xs-6 tabs">
-                            <a href="#" id="register-form-link"><div class="register">Реєстрація</div></a>
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-6 tabs">
+                                <a href="#" class="active" id="login-form-link"><div class="login">Вхід</div></a>
+                            </div>
+                            <div class="col-xs-6 tabs">
+                                <a href="#" id="register-form-link"><div class="register">Реєстрація</div></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+<div class="footer">
+
 </div>
 
 <script src="../JS/form.js"></script>
