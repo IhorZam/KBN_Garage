@@ -1,0 +1,124 @@
+
+.form{
+    background-color: black;
+    padding-top: 20px;
+}
+
+.panel{
+    background-color: black;
+    box-shadow: 0 0 5px #616161;
+
+}
+
+.panel-body{
+    background-color: black;
+    border: 1px solid #616161;
+    border-radius: 5px;
+}
+
+.panel-request .checkbox label {
+    margin-top: 20px;
+    padding-left: 25px;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    color: #ffd600;
+}
+.panel-request .checkbox {
+    padding-left: 20px;
+}
+.panel-request .checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    margin-left: 0px;
+    border: 1px solid #ffd600;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.panel-request .checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    margin-left: 0px;
+    padding-left: 3px;
+    padding-top: 1px;
+    font-size: 11px;
+    color: #ffd600;
+}
+.panel-request .checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+
+.panel-request .checkbox input[type="checkbox"]:checked + label::after {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+}
+
+
+.panel-request>.panel-heading .tabs{
+    padding: 0;
+}
+.panel-request h2{
+    color:#ffd600;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.panel-request>.panel-heading {
+    color: #ffd600;
+    background-color: #e8e9ec;
+    border-color: #ffd600;
+    text-align:center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 0px;
+    padding: 0px 15px;
+}
+.panel-request .form-group {
+    padding: 0 30px;
+}
+
+.panel-request>.panel-heading .request {
+    padding: 20px 30px;
+    background: #ffd600;
+    border-bottom-right-radius: 5px;
+}
+.panel-request>.panel-heading a{
+    text-decoration: none;
+    color: #666;
+    font-weight: 300;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.btn-request {
+    background-color: #E8E9EC;
+    outline: none;
+    color: #ffd600;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.btn-request:hover,
+.btn-request:focus {
+    color: #fff;
+    background-color: #ffd600;
+}
