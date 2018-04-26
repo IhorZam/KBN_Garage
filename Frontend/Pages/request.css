@@ -104,7 +104,7 @@
     transition: all 0.1s linear;
 }
 
-.btn-register {
+.btn-request {
     background-color: #E8E9EC;
     outline: none;
     color: #ffd600;
@@ -117,8 +117,8 @@
     border-radius: 0px;
     box-shadow: none;
 }
-.btn-register:hover,
-.btn-register:focus {
+.btn-request:hover,
+.btn-request:focus {
     color: #fff;
     background-color: #ffd600;
 }

@@ -1,6 +1,44 @@
 
 
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
 
+}
+
+.left-column{
+    flex-grow: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.img-left{
+    height: 420px;
+}
+
+.right-column{
+    flex-grow: 1;
+    padding-left: 40px;
+}
+
+p{
+    color: silver;
+    padding-left: 20px;
+}
+
+.blck{
+    border: 1px solid #616161;
+    color: #ffd600;
+    background-color: black;
+    width: 100%;
+    border-radius: 7px;
+    height: 420px;
+    font-size: 18px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px #616161;
+}
 
 
 
