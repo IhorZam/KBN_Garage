@@ -5,7 +5,7 @@
     <title>KBN Garage</title>
     <!-- Bootsrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet/less" type="text/css" href="main.less" />
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <!-- LESS JavaScript компілятор -->
@@ -21,7 +21,10 @@
         </div>
         <div class="buttons-line">
             <div class="left">
-                <div class="button-top" id="home"><button class="button-top">Home</button></div>
+                <div class="button-top" id="home">
+                    <a href="index.html">
+                        <button class="button-top">Home</button></a>
+                </div>
                 <div class="button-top" id="faq"><button class="button-top">F.A.Q</button></div>
                 <div class="button-top" id="bio">
                     <a href="BIO.html">
@@ -37,7 +40,7 @@
 
     <div class="center">
         <div class="first line" >
-            <button class="blck" id="engine">
+            <button class="blck" id="engine" >
                 <img width="170" height="150" src="Icons/Check.svg">
                 Engine
             </button>
@@ -78,6 +81,7 @@
     <div class="footer">
 
     </div>
+
 
     <script type="text/javascript" src="../Assets/main.js"> </script>
 </body>

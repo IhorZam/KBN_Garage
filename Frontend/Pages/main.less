@@ -72,7 +72,31 @@ body{
   color: silver;
   background-color: black;
   font-size: 22px;
+}
 
+.blck::after{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  content: attr(data-tooltip);
+  transition: all 700ms ease-in;
+  z-index: 100;
+  border-color: white;
+  background-color: white;
+  border-radius: 7px;
+  width: 80px;
+  height: 30px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.blck:hover::after {
+  opacity: 1;
+  transform: translateY(-40px);
+  visibility: visible;
 }
 
 .center{
