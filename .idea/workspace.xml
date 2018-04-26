@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7892f3b1-4dbc-457f-9ebe-c0125417b5a1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/KBN_Garage-master.iml" afterPath="$PROJECT_DIR$/.idea/KBN_Garage-master.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/BIO.css" afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/BIO.css" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/BIO.html" afterPath="$PROJECT_DIR$/Frontend/Pages/BIO.html" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/form.css" afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/form.css" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/form.html" afterPath="$PROJECT_DIR$/Frontend/Pages/form.html" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/index.html" afterPath="$PROJECT_DIR$/Frontend/Pages/index.html" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/main.less" afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/main.less" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/normalize.css" afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/normalize.css" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/request.css" afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/request.css" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/request.html" afterPath="$PROJECT_DIR$/Frontend/Pages/request.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -293,15 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1524751778795</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Better structure">
+      <created>1524752015590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524752015590</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36346000" />
+    <option name="totallyTimeSpent" value="36602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20885094" sideWeight="0.46919432" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -362,7 +367,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Small update" />
     <MESSAGE value="Added tooltips" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tooltips" />
+    <MESSAGE value="Better structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -542,14 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -749,6 +747,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
