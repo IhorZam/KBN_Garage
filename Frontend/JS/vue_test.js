@@ -89,13 +89,21 @@ var data = {
 
 var sheet = ['engine', 'odo', 'srs', 'immo','abs', 'ecu', 'ps', 'dpf'];
 
+var isLogined = function(){
+  return false;
+};
+
 sheet.forEach(function (value) {  new Vue({
     el: '#' + value,
     data: {
+        href: "",
         message: data[value].name,
         message2: data[value].tooltip
     },
     methods:{
+        getHref(){
+            isLogined()? this.href = "request.html" : this.href = "form.html";
+        }
     }
 
 
