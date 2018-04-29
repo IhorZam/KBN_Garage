@@ -13,53 +13,28 @@ $(function(){
 
     // Central element
     $center = $('.center');
-    $engine_button = $($center.find('#engine'));
-    $odo_button = $($center.find('#odo'));
-    $srs_button = $($center.find('#srs'));
-    $immo_button = $($center.find('#immo'));
-    $abs_button = $($center.find('#abs'));
-    $ecu_button = $($center.find('#ecu'));
-    $ps_button = $($center.find('#ps'));
-    $dpf_button = $($center.find('#dpf'));
+    var buttons = {
+        engine : [$center.find('#engine'), "engine"],
+        odo : [$center.find('#odo'), "odo"],
+        srs : [$center.find('#srs'), "srs"],
+        immo : [$center.find('#immo'), "immo"],
+        abs : [$center.find('#abs'), "abs"],
+        ecu : [$center.find('#ecu'), "ecu"],
+        ps : [$center.find('#ps'), "ps"],
+        dpf : [$center.find('#dpf'), "dpf"]
+    };
 
-    $engine_button.attr("data-tooltip",data['engine'].tooltip);
-    if (is_logged()) $engine_button.attr("href", "request.html");
-    else $engine_button.attr("href", "form.html");
-
-    $odo_button.attr("data-tooltip",data['odo'].tooltip);
-    if (is_logged()) $odo_button.attr("href", "request.html");
-    else $odo_button.attr("href", "form.html");
-
-    $srs_button.attr("data-tooltip",data['srs'].tooltip);
-    if (is_logged()) $srs_button.attr("href", "request.html");
-    else $srs_button.attr("href", "form.html");
-
-    $immo_button.attr("data-tooltip",data['immo'].tooltip);
-    if (is_logged()) $immo_button.attr("href", "request.html");
-    else $immo_button.attr("href", "form.html");
-
-    $abs_button.attr("data-tooltip",data['abs'].tooltip);
-    if (is_logged()) $abs_button.attr("href", "request.html");
-    else $abs_button.attr("href", "form.html");
-
-    $ecu_button.attr("data-tooltip",data['ecu'].tooltip);
-    if (is_logged()) $ecu_button.attr("href", "request.html");
-    else $ecu_button.attr("href", "form.html");
-
-    $ps_button.attr("data-tooltip",data['ps'].tooltip);
-    if (is_logged()) $ps_button.attr("href", "request.html");
-    else $ps_button.attr("href", "form.html");
-
-    $dpf_button.attr("data-tooltip",data['dpf'].tooltip);
-    if (is_logged()) $dpf_button.attr("href", "request.html");
-    else $dpf_button.attr("href", "form.html");
-
-
-
-
-
-
-
+    /*for (element in buttons){
+        buttons[element][0].attr("data-tooltip",data[buttons[element][1]].tooltip);
+        if (is_logged())
+            buttons[element][0].find('a').attr("href","request.html");
+        else
+            buttons[element][0].find('a').attr("href","form.html");
+        buttons[element][0].find('a').click(function () {
+           localStorage.setItem("data", JSON.stringify(data[buttons[element][1]]));
+        });
+    }
+*/
 });
 },{"./data/data":2}],2:[function(require,module,exports){
 
@@ -99,7 +74,7 @@ var data = {
     immo:
         {
             name: "IMMO",
-            tooltip: "Все, що стосується систем іммобілайзерів",
+            tooltip: "Все що стосується систем іммобілайзерів",
             description: "Діагностика та ремонт електронних систем іммобілайзера, виготовлення та адаптація чіпів і ключах, видалення з пам\"яті втрачених ключів.\n" +
             "- Авто не заводиться?\n" +
             "- Засвітився індикатор іммобілайзера?\n" +

@@ -6,6 +6,7 @@
     <!-- Bootsrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <link rel="stylesheet/less" type="text/css" href="CSS/main.less" />
     <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
     <!-- LESS JavaScript компілятор -->
@@ -21,68 +22,95 @@
         </div>
         <div class="buttons-line">
             <div class="left">
-                <div class="button-top" id="home">
+                <div  id="home">
                     <a href="index.html">
-                        <button class="button-top">Home</button></a>
+                        <button class="button-top" data-tooltip="Додому">Home</button></a>
                 </div>
-                <div class="button-top" id="faq"><button class="button-top">F.A.Q</button></div>
-                <div class="button-top" id="bio">
+                <div  id="faq"><button class="button-top" data-tooltip="Цікава інформація">F.A.Q</button></div>
+                <div  id="bio">
                     <a href="BIO.html">
-                    <button class="button-top">B.I.O</button></a>
+                    <button class="button-top" data-tooltip="Інформація про майстра" >B.I.O</button></a>
                 </div>
 
             </div>
             <div class="right">
-                <div class="button-top" id="my-calls"><button class="button-top">Мій кабінет</button></div>
+                <div  id="my-calls"><button class="button-top" data-tooltip="Заявки">Мій кабінет</button></div>
             </div>
         </div>
     </div>
 
     <div class="center">
         <div class="first line" >
-            <button class="blck" id="engine" >
-                <img width="170" height="150" src="Icons/Check.svg">
-                Engine
-            </button>
+                <div class="blck" id="engine" >
+                    <a class="inner">
+                        <img width="170" height="150" src="Icons/Check.svg">
+                        {{message}}
+                    </a>
+                    <a class="hover-inner">{{message2}}</a>
+                </div>
         </div>
         <div class="second line">
-            <button class="blck" id="odo">
-                <img width="130" height="130" src="Icons/odo.svg">
-                ODO
-            </button>
-            <button class="blck" id="srs">
-                <img width="130" height="130" src="Icons/airbag.svg">
-                SRS
-            </button>
-            <button class="blck" id="immo">
-                <img width="130" height="130" src="Icons/immo.svg">
-                IMMO
-            </button>
+                <div class="blck" id="odo">
+                    <a class="inner">
+                        <img width="130" height="130" src="Icons/odo.svg">
+                        {{message}}
+                    </a>
+                    <a class="hover-inner">{{message2}}</a>
+                </div>
+                <div class="blck" id="srs">
+                    <a class="inner">
+                        <img width="130" height="130" src="Icons/airbag.svg">
+                        {{message}}
+                    </a>
+                    <a class="hover-inner">{{message2}}</a>
+                </div>
         </div>
         <div class="third line">
-            <button class="blck" id="abs">
-                <img width="130" height="130" src="Icons/abs.svg">
-                /ESP
-            </button>
-            <button class="blck" id="ecu">
-                <img width="130" height="130" src="Icons/ecuu.svg">
-                ECU
-            </button>
-            <button class="blck" id="ps">
-                <img width="130" height="130" src="Icons/ps.svg">
-                PS
-            </button>
+                <div  class="blck" id="immo">
+                    <a class="inner">
+                        <img width="130" height="130" src="Icons/immo.svg">
+                        {{message}}
+                    </a>
+                    <a class="hover-inner">{{message2}}</a>
+                </div>
+                <div class="blck" id="abs">
+                    <a class="inner">
+                        <img width="130" height="130" src="Icons/abs.svg">
+                        {{message}}
+                    </a>
+                    <a class="hover-inner">{{message2}}</a>
+                </div>
         </div>
         <div class="fourth line">
-            <button class="blck" id="dpf">DPF/CAT/AddBlue/FAP</button>
+            <div class="blck" id="ecu">
+                <a class="inner">
+                    <img width="130" height="130" src="Icons/ecuu.svg">
+                    {{message}}
+                </a>
+                <a class="hover-inner">{{message2}}</a>
+            </div>
+            <div class="blck" id="ps">
+                <a class="inner">
+                    <img width="130" height="130" src="Icons/ps.svg">
+                    {{message}}
+                </a>
+                <a class="hover-inner">{{message2}}</a>
+            </div>
+        </div>
+        <div class="fifth line">
+            <div class="blck" id="dpf">
+                <a class="inner">
+                    {{message}}
+                </a>
+                <a class="hover-inner">{{message2}}</a>
+            </div>
         </div>
     </div>
 
-    <div class="footer">
-
-    </div>
-
+    <div class="footer"></div>
 
     <script type="text/javascript" src="../Assets/main.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script type="text/javascript" src="../JS/vue_test.js"></script>
 </body>
 </html>
