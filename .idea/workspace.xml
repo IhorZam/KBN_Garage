@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7892f3b1-4dbc-457f-9ebe-c0125417b5a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/KBN_Garage.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KBN_Garage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KBN_Garage/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KBN_Garage/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KBN_Garage/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KBN_Garage/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/JS/vue_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/Pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
+            <state relative-caret-position="298">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue_test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vue_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="234">
+              <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
               <folding>
                 <element signature="e#11#3535#0" />
               </folding>
@@ -73,6 +61,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2214">
               <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Frontend/Pages/room.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -276,7 +273,7 @@
       <workItem from="1524902789350" duration="122000" />
       <workItem from="1524920611023" duration="1226000" />
       <workItem from="1524994902696" duration="8332000" />
-      <workItem from="1525014193111" duration="1121000" />
+      <workItem from="1525014193111" duration="2678000" />
     </task>
     <task id="LOCAL-00001" summary="Small update">
       <created>1524747820844</created>
@@ -299,17 +296,38 @@
       <option name="project" value="LOCAL" />
       <updated>1525010445117</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;Frontend/Pages/index.html&#10;&#10;Fixed vue.js syntax">
+      <created>1525015358984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525015358984</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&#10;Fixed vue.js syntax">
+      <created>1525015440054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525015440054</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&#10;Fixed vue.js syntax(">
+      <created>1525015490648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525015490648</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56080000" />
+    <option name="totallyTimeSpent" value="57637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-11" width="1313" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19021739" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19021739" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" sideWeight="0.5308057" side_tool="true" weight="0.20885094" />
@@ -317,7 +335,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23556942" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23556942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,7 +382,10 @@
     <MESSAGE value="Small update" />
     <MESSAGE value="Added tooltips" />
     <MESSAGE value="New tooltips added" />
-    <option name="LAST_COMMIT_MESSAGE" value="New tooltips added" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;Frontend/Pages/index.html&#10;&#10;Fixed vue.js syntax" />
+    <MESSAGE value="&#10;Fixed vue.js syntax" />
+    <MESSAGE value="&#10;Fixed vue.js syntax(" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Fixed vue.js syntax(" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
@@ -567,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/Pages/room.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/Frontend/JS/request.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -649,20 +663,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
+    <entry file="file://$PROJECT_DIR$/Frontend/Pages/room.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="104" column="38" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="38" />
+        <state relative-caret-position="324">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="234">
+          <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
           <folding>
             <element signature="e#11#3535#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
