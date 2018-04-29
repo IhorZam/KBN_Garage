@@ -103,7 +103,7 @@ sheet.forEach(function (value) {  new Vue({
         message2: data[value].tooltip
     },
     mounted(){
-        isLogined()? this.href = "request.html" : this.href = "form.html";
+        isLogined()? this.href = "/request" : this.href = "/form";
     },
 
     delimiters: ["<%","%>"]
