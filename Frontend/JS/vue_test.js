@@ -93,6 +93,8 @@ var isLogined = function(){
   return false;
 };
 
+Vue.config.delimetrs = ['<%', '%>'];
+
 sheet.forEach(function (value) {  new Vue({
     el: '#' + value,
     data: {
@@ -100,11 +102,12 @@ sheet.forEach(function (value) {  new Vue({
         message: data[value].name,
         message2: data[value].tooltip
     },
-    methods:{
-        getHref(){
-            isLogined()? this.href = "request.html" : this.href = "form.html";
-        }
-    }
+    mounted(){
+        isLogined()? this.href = "request.html" : this.href = "form.html";
+
+    },
+
+    delimiters: ["<%","%>"]
 
 
 })});

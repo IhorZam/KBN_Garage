@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>KBN Garage</title>
@@ -44,65 +44,65 @@
                 <div class="blck" id="engine" >
                     <a class="inner">
                         <img width="170" height="150" src="/static/Check.svg">
-                        {{message}}
+                        <%message%>
                     </a>
-                    <a class="hover-inner">{{message2}}</a>
+                    <a class="hover-inner"><%message2%></a>
                 </div>
         </div>
         <div class="second line">
                 <div class="blck" id="odo">
-                    <a class="inner">
+                    <a v-bind:href="href" class="inner">
                         <img width="130" height="130" src="/static/odo.svg">
-                        {{message}}
+                        <%message%>
                     </a>
-                    <a class="hover-inner">{{message2}}</a>
+                    <a v-bind:href="href" class="hover-inner"><%message2%></a>
                 </div>
                 <div class="blck" id="srs">
-                    <a class="inner">
+                    <a v-bind:href="href" class="inner">
                         <img width="130" height="130" src="/static/airbag.svg">
-                        {{message}}
+                        <%message%>
                     </a>
-                    <a class="hover-inner">{{message2}}</a>
+                    <a v-bind:href="href" class="hover-inner"><%message2%></a>
                 </div>
         </div>
         <div class="third line">
                 <div  class="blck" id="immo">
-                    <a class="inner">
+                    <a v-bind:href="href" class="inner">
                         <img width="130" height="130" src="/static/immo.svg">
-                        {{message}}
+                        <%message%>}
                     </a>
-                    <a class="hover-inner">{{message2}}</a>
+                    <a v-bind:href="href" class="hover-inner"><%message2%></a>
                 </div>
                 <div class="blck" id="abs">
-                    <a class="inner">
+                    <a v-bind:href="href" class="inner">
                         <img width="130" height="130" src="/static/abs.svg">
-                        {{message}}
+                        <%message%>
                     </a>
-                    <a class="hover-inner">{{message2}}</a>
+                    <a v-bind:href="href" class="hover-inner"><%message2%></a>
                 </div>
         </div>
         <div class="fourth line">
             <div class="blck" id="ecu">
-                <a class="inner">
+                <a v-bind:href="href" class="inner">
                     <img width="130" height="130" src="/static/ecuu.svg">
-                    {{message}}
+                    <%message%>
                 </a>
-                <a class="hover-inner">{{message2}}</a>
+                <a v-bind:href="href" class="hover-inner"><%message2%></a>
             </div>
             <div class="blck" id="ps">
-                <a class="inner">
+                <a v-bind:href="href" class="inner">
                     <img width="130" height="130" src="/static/ps.svg">
-                    {{message}}
+                    <%message%>
                 </a>
-                <a class="hover-inner">{{message2}}</a>
+                <a v-bind:href="href" class="hover-inner"><%message2%></a>
             </div>
         </div>
         <div class="fifth line">
             <div class="blck" id="dpf">
-                <a class="inner">
-                    {{message}}
+                <a v-bind:href="href" class="inner">
+                    <%message%>
                 </a>
-                <a class="hover-inner">{{message2}}</a>
+                <a v-bind:href="href" class="hover-inner"><%message2%></a>
             </div>
         </div>
     </div>
