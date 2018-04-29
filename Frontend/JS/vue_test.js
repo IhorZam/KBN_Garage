@@ -104,7 +104,6 @@ sheet.forEach(function (value) {  new Vue({
     },
     mounted(){
         isLogined()? this.href = "request.html" : this.href = "form.html";
-
     },
 
     delimiters: ["<%","%>"]
