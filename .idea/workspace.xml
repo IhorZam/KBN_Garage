@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7892f3b1-4dbc-457f-9ebe-c0125417b5a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/JS/vue_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/Pages/CSS/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/main.less" afterDir="false" />
@@ -23,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+            <state relative-caret-position="288">
+              <caret line="47" column="18" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="47" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -32,10 +32,10 @@
       <file leaf-file-name="vue_test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="113" column="11" lean-forward="true" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+            <state relative-caret-position="106">
+              <caret line="111" column="10" lean-forward="true" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
               <folding>
-                <element signature="e#11#3940#0" />
+                <element signature="e#15#3638#0" />
               </folding>
             </state>
           </provider>
@@ -44,8 +44,17 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/Pages/CSS/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
+            <state relative-caret-position="2754">
+              <caret line="153" column="14" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KBN_Garage/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2214">
+              <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -134,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +178,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +211,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Unknown.KBN_Garage1778222194">
+  <component name="RunManager" selected="Node.js.vue_test.js">
+    <configuration name="vue_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="vue_test.js" working-dir="$PROJECT_DIR$/Frontend/JS" />
     <configuration name="KBN_Garage" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,7 +249,13 @@
     </configuration>
     <list>
       <item itemvalue="Grunt.js.browserify" />
+      <item itemvalue="Node.js.vue_test.js" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.vue_test.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -262,6 +278,7 @@
       <workItem from="1524920611023" duration="1226000" />
       <workItem from="1524994902696" duration="8332000" />
       <workItem from="1525014193111" duration="1121000" />
+      <workItem from="1525091086145" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="Small update">
       <created>1524747820844</created>
@@ -291,69 +308,71 @@
       <option name="project" value="LOCAL" />
       <updated>1525075949574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Vue settings">
+      <created>1525080063551</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525080063551</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Vue settings">
+      <created>1525080109214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525080109214</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61744000" />
+    <option name="totallyTimeSpent" value="64228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-11" width="1313" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19021739" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19021739" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Grunt " order="2" sideWeight="0.5308057" side_tool="true" weight="0.20885094" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3287037" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917318" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23556942" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.42433697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19021739" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32970452" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23556942" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3287037" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Grunt " order="2" sideWeight="0.5308057" side_tool="true" weight="0.20885094" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.44549763" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
-      <window_info id="Grunt " order="2" sideWeight="0.5308057" side_tool="true" weight="0.20885094" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19440125" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3287037" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32970452" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Grunt " order="2" sideWeight="0.5308057" side_tool="true" weight="0.20885094" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -368,11 +387,16 @@
     <MESSAGE value="Added tooltips" />
     <MESSAGE value="New tooltips added" />
     <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Vue settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Vue settings" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Frontend/JS/form.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/KBN_Garage/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/views/generic/base.py" />
     <entry file="file://$PROJECT_DIR$/KBN_Garage/settings.py">
@@ -407,9 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
-          <folding>
-            <element signature="e#11#3940#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,33 +685,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KBN_Garage/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
+        <state relative-caret-position="2214">
           <caret line="123" column="39" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/Pages/CSS/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
+        <state relative-caret-position="2754">
+          <caret line="153" column="14" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="47" column="18" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="47" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="113" column="11" lean-forward="true" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+        <state relative-caret-position="106">
+          <caret line="111" column="10" lean-forward="true" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
           <folding>
-            <element signature="e#11#3940#0" />
+            <element signature="e#15#3638#0" />
           </folding>
         </state>
       </provider>

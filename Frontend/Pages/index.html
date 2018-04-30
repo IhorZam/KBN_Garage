@@ -38,15 +38,65 @@
             </div>
         </div>
     </div>
-    <div class="center" id="center">
-        <cell id="engine"></cell>
-        <cell id="odo"></cell>
-        <cell id="srs"></cell>
-        <cell id="immo"></cell>
-        <cell id="abs"></cell>
-        <cell id="ecu"></cell>
-        <cell id="ps"></cell>
-        <cell id="dpf"></cell>
+    <div class="center">
+        <div class="first line">
+            <div class="blck" id="engine">
+                <a :href="href" class="inner">
+                    <img width="170" height="150" v-bind:src="image"><%message%>
+                </a>
+                <a :href="href" class="hover-inner"><%message2%></a>
+            </div>
+        </div>
+        <div class="second line">
+            <div class="blck" id="odo" >
+                <a :href="href" class="inner">
+                    <img width="170" height="150" v-bind:src="image"><%message%>
+                </a>
+                <a :href="href" class="hover-inner"><%message2%></a>
+            </div>
+            <div class="blck" id="srs" >
+                <a :href="href" class="inner">
+                    <img width="170" height="150" v-bind:src="image"><%message%>
+                </a>
+                <a :href="href" class="hover-inner"><%message2%></a>
+            </div>
+        </div>
+        <div class="third line">
+            <div class="blck" id="immo" >
+                <a :href="href" class="inner">
+                    <img width="170" height="150" v-bind:src="image"><%message%>
+                </a>
+                <a :href="href" class="hover-inner"><%message2%></a>
+            </div>
+            <div class="blck" id="abs" >
+                <a :href="href" class="inner">
+                    <img width="170" height="150" v-bind:src="image"><%message%>
+                </a>
+                <a :href="href" class="hover-inner"><%message2%></a>
+            </div>
+        </div>
+        <div class="fourth line">
+            <div class="blck" id="ecu" >
+                <a :href="href" class="inner">
+                    <img width="170" height="150" v-bind:src="image"><%message%>
+                </a>
+                <a :href="href" class="hover-inner"><%message2%></a>
+            </div>
+            <div class="blck" id="ps" >
+                <a :href="href" class="inner">
+                    <img width="170" height="150" v-bind:src="image"><%message%>
+                </a>
+                <a :href="href" class="hover-inner"><%message2%></a>
+            </div>
+        </div>
+        <div class="fifth line">
+            <div class="blck" id="dpf">
+                <a :href="href" class="inner">
+                    <%message%>
+                </a>
+                <a :href="href" class="hover-inner"><%message2%></a>
+            </div>
+        </div>
     </div>
 
     <div class="footer"></div>
