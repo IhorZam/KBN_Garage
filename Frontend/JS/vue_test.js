@@ -112,6 +112,7 @@ Vue.component('cell', {
 sheet.forEach(function (value) {  new Vue({
     el: '#' + value,
     data: {
+
         href: "",
         image: data[value].icon,
         message: data[value].name,
