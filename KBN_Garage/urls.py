@@ -21,5 +21,7 @@ from KBN_Garage.views import *
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', main)
+    url(r'^$', main),
+    url(r'^request/$', request),
+    url(r'^form/$', form)
 ]

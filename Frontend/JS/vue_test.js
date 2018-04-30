@@ -1,7 +1,8 @@
-var data = {
-    engine:
+var data = [
         {
             name: "Engine",
+            id: "engine",
+            icon: "/static/Check.svg",
             tooltip: "Діагностика силового агрегату та трансміссії",
             description: "Діагностика та ремонт електронних компонентів, які стосуються двигуна та трансмісії.\n" +
             "- Засвітився чек?\n" +
@@ -12,27 +13,30 @@ var data = {
             "- Вийшов з ладу блок керування двигуном?\n" +
             "Заповніть заявку"
         },
-    odo:
         {
             name: "ODO",
+            id: "odo",
+            icon: "/static/odo.svg",
             tooltip: "Коррекція одометрів",
             description: "Коррекція показників одометра після заміниб конвертація з миль в км, фаренгейтів в цельсії, ремонт.\n" +
             "- Погасли показники одометра?\n" +
             "- Замінили панель приладів?\n" +
             "Заповніть заявку"
         },
-    srs:
         {
             name: "SRS",
+            id: "srs",
+            icon: "/static/airbag.svg",
             tooltip: "Діагностика та ремонт блоків SRS",
             description: "Діагностика та ремонт, відновлення після ДТП (Crash Data) блокыв керування подушок безпеки.\n" +
             "- З\"явилась іконка SRS на панелі?\n" +
             "- Авто побувало у ДТП?\n" +
             "Заповніть заявку"
         },
-    immo:
         {
             name: "IMMO",
+            id: "immo",
+            icon: "/static/immo.svg",
             tooltip: "Все що стосується систем іммобілайзерів",
             description: "Діагностика та ремонт електронних систем іммобілайзера, виготовлення та адаптація чіпів і ключах, видалення з пам\"яті втрачених ключів.\n" +
             "- Авто не заводиться?\n" +
@@ -41,9 +45,10 @@ var data = {
             "- Бажаєте мати ще один ключ?\n" +
             "Заповніть заявку"
         },
-    abs:
         {
             name: "ABS/ESP",
+            id: 'abs',
+            icon: "/static/abs.svg",
             tooltip: "Обслуговування електроніки гальмівної системи",
             description: "Діагностика та ремонт електроніки гальмівної системи.\n" +
             "- Засвітився індикатор ABS/ESP ?\n" +
@@ -51,18 +56,20 @@ var data = {
             "- Вийшов з ладу блок керування ABS?\n" +
             "Заповніть заявку"
         },
-    ecu:
         {
             name: "ECU",
+            id: 'ecu',
+            icon: "/static/ecuu.svg",
             tooltip: "Ремонт електронних блоків авто",
             description: "Діагностика та ремонт електронних блоків керування. Адаптація та налаштування нових блоків після заміни. Оновлення ПЗ.\n" +
             "- Вийшов з ладу блок керування?\n" +
             "- Не вдається адаптувати новій чи бувший в користуванні блок?\n" +
             "Заповніть заявку."
         },
-    ps:
         {
             name: "PS",
+            id: 'ps',
+            icon: "/static/ps.svg",
             tooltip: "Все, що стосується програмного забезпечення авто",
             description: "Оновлення та заміна програмного забезпечення. Кодування та модифікація комплектації авто. Адаптація мови.\n" +
             "- Дообладнали авто і потрібно змінити комплектацію?\n" +
@@ -70,9 +77,10 @@ var data = {
             "- Бажаєте мати останню версію ПЗ?\n" +
             "Заповніть заявку."
         },
-    dpf:
         {
             name: "DPF\\FAP\\ADDBlue\\CAT",
+            id: 'dpf',
+            icon: "/static/Check.svg",
             tooltip: "Програмне видалення сажових фільтрів, каталізаторів",
             description: "Програмне видалення сажевіих фільтрів, каталізаторів, присадок AddBlue, Olys та інше.\n" +
             "- Сажевий фільтр не працює?\n" +
@@ -81,11 +89,7 @@ var data = {
             "Заповніть заявку."
         }
 
-
-
-
-
-};
+];
 
 var sheet = ['engine', 'odo', 'srs', 'immo','abs', 'ecu', 'ps', 'dpf'];
 
@@ -93,20 +97,35 @@ var isLogined = function(){
   return false;
 };
 
-Vue.config.delimetrs = ['<%', '%>'];
-
-sheet.forEach(function (value) {  new Vue({
-    el: '#' + value,
-    data: {
-        href: "",
-        message: data[value].name,
-        message2: data[value].tooltip
+var main = new Vue({
+   el: '#center',
+    data:{
+       href: '',
+       cells: data
     },
     mounted(){
-        isLogined()? this.href = "request.html" : this.href = "form.html";
+        isLogined()? this.href = "/request" : this.href = "/form";
     },
 
     delimiters: ["<%","%>"]
 
 
-})});
+});
+
+
+/*sheet.forEach(function (value) {  new Vue({
+    el: '#' + value,
+    data: {
+        href: "",
+        image: data[value].icon,
+        message: data[value].name,
+        message2: data[value].tooltip
+    },
+    mounted(){
+        isLogined()? this.href = "/request" : this.href = "/form";
+    },
+
+    delimiters: ["<%","%>"]
+
+
+})});*/
