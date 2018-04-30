@@ -39,12 +39,14 @@
         </div>
     </div>
     <div class="center" id="center">
-        <div class="blck" v-for="cell in cells" :id="cell.id">
-            <a :href="href" class="inner" v-text="cell.name">
-                <img width="170" height="150" v-bind:src="cell.icon">
-            </a>
-            <a :href="href" class="hover-inner" v-text="cell.tooltip"></a>
-        </div>
+        <cell id="engine"></cell>
+        <cell id="odo"></cell>
+        <cell id="srs"></cell>
+        <cell id="immo"></cell>
+        <cell id="abs"></cell>
+        <cell id="ecu"></cell>
+        <cell id="ps"></cell>
+        <cell id="dpf"></cell>
     </div>
 
     <div class="footer"></div>

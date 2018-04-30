@@ -97,23 +97,19 @@ var isLogined = function(){
   return false;
 };
 
-var main = new Vue({
-   el: '#center',
-    data:{
-       href: '',
-       cells: data
-    },
-    mounted(){
-        isLogined()? this.href = "/request" : this.href = "/form";
-    },
+Vue.component('cell', {
 
-    delimiters: ["<%","%>"]
-
+    template: '<div class="blck" >\n' +
+    '            <a :href="href" class="inner">\n' +
+    '                <img width="170" height="150" v-bind:src="image"><%message%>\n' +
+    '            </a>\n' +
+    '            <a :href="href" class="hover-inner"><%message2%></a>\n' +
+    '        </div>'
 
 });
 
 
-/*sheet.forEach(function (value) {  new Vue({
+sheet.forEach(function (value) {  new Vue({
     el: '#' + value,
     data: {
         href: "",
@@ -128,4 +124,4 @@ var main = new Vue({
     delimiters: ["<%","%>"]
 
 
-})});*/
+})});
