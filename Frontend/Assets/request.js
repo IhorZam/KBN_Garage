@@ -28,12 +28,14 @@ var request = new Vue({
         age: 2000,
         engine: "",
         problem: "",
-        user_id: localStorage.getItem('user_id')
     },
     methods: {
        send(){
-           axios.post('url', data).then(function(request){
-
+           axios.post('/post_req/', {
+               title: this.car,
+               descr: this.age + " " + this.engine + " " + this.problem
+           }).then(function(request){
+                location.href = '/room'
            }).catch(function(e){
 
            });
