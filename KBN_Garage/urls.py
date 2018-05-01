@@ -23,5 +23,9 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', main),
     url(r'^request/$', request),
-    url(r'^form/$', form)
+    url(r'^form/$', form),
+    url('^login/$', sign_in),
+    url('^signup/$', sign_up),
+    url('^logout/$', sign_out),
+    url('^check_auth/$', authorised),
 ]

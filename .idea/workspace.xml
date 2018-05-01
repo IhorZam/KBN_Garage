@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7892f3b1-4dbc-457f-9ebe-c0125417b5a1" name="Default" comment="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xmд&#10;For pull">
+    <list default="true" id="7892f3b1-4dbc-457f-9ebe-c0125417b5a1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/JS/data/vue_room.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/JS/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/JS/vue_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/JS/vue_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Pages/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Pages/request.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Pages/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/room.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KBN_Garage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/KBN_Garage/settings.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+            <state relative-caret-position="289">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -31,19 +38,10 @@
         <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
               <folding>
                 <element signature="e#15#3638#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -133,6 +131,7 @@
         <option value="$PROJECT_DIR$/Frontend/JS/request.js" />
         <option value="$PROJECT_DIR$/Frontend/JS/data/vue_room.js" />
         <option value="$PROJECT_DIR$/Frontend/Pages/CSS/form.css" />
+        <option value="$PROJECT_DIR$/Frontend/Pages/index.html" />
         <option value="$PROJECT_DIR$/Frontend/Pages/room.html" />
         <option value="$PROJECT_DIR$/Frontend/JS/vue_room.js" />
         <option value="$PROJECT_DIR$/KBN_Garage/settings.py" />
@@ -140,7 +139,6 @@
         <option value="$PROJECT_DIR$/Frontend/JS/vue_form.js" />
         <option value="$PROJECT_DIR$/Frontend/Pages/request.html" />
         <option value="$PROJECT_DIR$/Frontend/JS/vue_request.js" />
-        <option value="$PROJECT_DIR$/Frontend/Pages/index.html" />
         <option value="$PROJECT_DIR$/Frontend/JS/vue_home.js" />
       </list>
     </option>
@@ -261,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.vue_home.js">
+  <component name="RunManager" selected="Unknown.KBN_Garage175689022">
     <configuration name="vue_home.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Frontend/JS/vue_home.js" working-dir="$PROJECT_DIR$/Frontend/JS" />
     <configuration name="KBN_Garage" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -327,7 +325,7 @@
       <workItem from="1525103578075" duration="360000" />
       <workItem from="1525104822222" duration="80000" />
       <workItem from="1525159122620" duration="8065000" />
-      <workItem from="1525173485400" duration="9408000" />
+      <workItem from="1525173485400" duration="8279000" />
     </task>
     <task id="LOCAL-00001" summary="Small update">
       <created>1524747820844</created>
@@ -392,32 +390,11 @@
       <option name="project" value="LOCAL" />
       <updated>1525178940157</updated>
     </task>
-    <task id="LOCAL-00010" summary="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xmд&#10;Some more vue">
-      <created>1525183732600</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1525183732604</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xmд">
-      <created>1525186251024</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1525186251024</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xmд&#10;For pull">
-      <created>1525186325989</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1525186325989</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82141000" />
+    <option name="totallyTimeSpent" value="81012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-11" width="1313" height="780" extended-state="6" />
@@ -431,7 +408,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4274571" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2730109" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -473,10 +450,7 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Vue repaired" />
     <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Form start" />
     <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Big improovments, template of server requests" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xmд&#10;Some more vue" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xmд" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xmд&#10;For pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xmд&#10;For pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Big improovments, template of server requests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/KBN_Garage/views.py">
@@ -679,6 +653,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/Frontend/JS/Main_Page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -705,6 +680,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1713">
           <caret line="180" column="20" selection-start-line="180" selection-start-column="20" selection-end-line="180" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -785,24 +767,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
           <folding>
             <element signature="e#15#3638#0" />
           </folding>
