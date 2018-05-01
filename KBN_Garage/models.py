@@ -44,4 +44,9 @@ class Request(models.Model):
     title = models.CharField(max_length=32)
     descr = models.CharField(max_length=512)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
-    status = models.CharField(max_length=16)
+    status = models.CharField(max_length=16, default='pending')
+
+    @staticmethod
+    def add_req(user, title, descr):
+        new_request = Request.objects.create(title=title, descr=descr, author=user, status='pending')
+        new_request.save()
