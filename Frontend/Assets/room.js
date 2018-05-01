@@ -30,8 +30,9 @@ var cell = new Vue({
         calls: []
     },
     mounted(){
-        axios.get('url').then(function(response){
-            this.calls = response.data.calls;
+        axios.get('my_regs').then(function(response){
+            console.log(response.data);
+            //this.calls = response.data.calls;
         }).catch(function(e){});
     },
     delimiters: ["<%","%>"]
