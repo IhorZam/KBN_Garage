@@ -112,11 +112,11 @@ var sheet = ['engine', 'odo', 'srs', 'immo','abs', 'ecu', 'ps', 'dpf'];
 var isLogined = function(){
     var loggined = false;
     axios.get('/check_auth/').then(function (response){
+        console.log(response.data.auth);
         loggined = response.data.auth;
     }).catch(function(e){
 
     });
-    alert(loggined);
     return loggined;
 };
 
