@@ -109,45 +109,6 @@ var axios = require('axios');
 
 var sheet = ['engine', 'odo', 'srs', 'immo','abs', 'ecu', 'ps', 'dpf'];
 
-var isLogined = function(){
-    var loggined = false;
-    axios.get('/check_auth/').then(function (response){
-        console.log(response.data.auth);
-        loggined = response.data.auth;
-    }).catch(function(e){
-
-    });
-    return loggined;
-};
-
-var room = new Vue({
-    el: '#my-calls',
-    data:{
-        href: ""
-    },
-    mounted(){
-        isLogined()? this.href = "/room" : this.href = "/form";
-    }
-
-});
-
-var logout = new Vue({
-   el: '#logout',
-    data: {
-        isLoggined: false
-    },
-    mounted(){
-      this.isLoggined = isLogined();
-    },
-    methods: {
-       logout(){
-           axios.post('/logout/').then(function(responce){}).catch(function(e){});
-       }
-    }
-
-
-});
-
 
 Vue.component('cell', {
 
@@ -173,17 +134,13 @@ sheet.forEach(function (value) {
         el: '#' + value,
         data: {
             isOn: false,
-            href: "",
+            href: "/request",
             image: data_set[value].icon,
             message: data_set[value].name,
             message2: data_set[value].tooltip
         },
 
         methods:{
-        },
-
-        mounted(){
-            isLogined()? this.href = "/request" : this.href = "/form";
         },
 
         delimiters: ["<%","%>"]

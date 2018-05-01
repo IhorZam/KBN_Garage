@@ -44,6 +44,7 @@ def sign_up(req):
             key = Session.objects.authentificate(username, password)
             response = JsonResponse({'status': 'ok'})
             response.set_cookie('sessid', key)
+            print('registered')
             return response
         return JsonResponse({'status': 'error'})
 

@@ -60,7 +60,9 @@ var logout = new Vue({
     },
     methods: {
         logout(){
-            axios.post('logout').then(function(responce){}).catch(function(e){});
+            axios.post('/logout/').then(function(responce){
+                location.href = '/'
+            }).catch(function(e){});
         }
     }
 
