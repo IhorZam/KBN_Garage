@@ -55,7 +55,8 @@
                         <div class="row">
                             <div class="col-lg-12" >
                                 <form id="logregform" action="#" method="post" role="form"  style="display: block;">
-                                    <h2>Ввійти в профіль</h2>
+                                    <h2 v-show="isLogging">Ввійти в профіль</h2>
+                                    <h2 v-show="!isLogging">Зареєструватися</h2>
                                     <div class="form-group">
                                         <input
                                                 type="text"

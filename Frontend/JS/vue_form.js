@@ -1,4 +1,5 @@
-import axios from 'axios'
+
+
 var all = new Vue({
    el: "#all",
    data: {

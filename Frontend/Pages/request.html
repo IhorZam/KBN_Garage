@@ -39,8 +39,10 @@
 
 <div class="request" style="background-color: black">
     <div class="container">
-        <h3 style="color: #ffd600">[Назва розділу]</h3>
-        <h2 style="color: #ffd600">[Інфо]</h2>
+        <template id="name">
+            <h3 style="color: #ffd600"><%name%></h3>
+            <h2 style="color: #ffd600"><%desc%></h2>
+        </template>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-request">
@@ -50,21 +52,61 @@
                                 <form id="request-form" action="#" method="post" role="form" style="display: block;">
                                     <h2 style="color: #ffd600">Заявка</h2>
                                     <div class="form-group">
-                                        <input type="text" name="car" id="car" tabindex="1" class="form-control" placeholder="Авто" value="">
+                                        <input
+                                                type="text"
+                                                name="car"
+                                                id="car"
+                                                tabindex="1"
+                                                class="form-control"
+                                                placeholder="Авто"
+                                                value=""
+                                                v-model="car">
                                     </div>
                                     <div class="form-group">
-                                        <input type="number" name="age" id="age" tabindex="2" class="form-control" placeholder="Вік" value="">
+                                        <input
+                                                type="number"
+                                                name="age"
+                                                id="age"
+                                                tabindex="2"
+                                                class="form-control"
+                                                placeholder="Вік"
+                                                value=""
+                                                v-model="age"
+                                        >
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="engine" id="password" tabindex="3" class="form-control" placeholder="Двигун">
+                                        <input
+                                                type="text"
+                                                name="engine"
+                                                id="password"
+                                                tabindex="3"
+                                                class="form-control"
+                                                placeholder="Двигун"
+                                                v-model="engine"
+                                        >
                                     </div>
                                     <div class="form-group">
-                                        <textarea name="problem" id="problem" tabindex="4" class="form-control" placeholder="Опис проблеми"></textarea>
+                                        <textarea
+                                                name="problem"
+                                                id="problem"
+                                                tabindex="4"
+                                                class="form-control"
+                                                placeholder="Опис проблеми"
+                                                v-model="problem"
+                                        ></textarea>
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-sm-6 col-sm-offset-3">
-                                                <input type="submit" name="request-submit" id="request-submit" tabindex="5" class="form-control btn btn-request" value="Відправити заявку">
+                                                <input
+                                                        type="submit"
+                                                        name="request-submit"
+                                                        id="request-submit"
+                                                        tabindex="5"
+                                                        class="form-control btn btn-request"
+                                                        value="Відправити заявку"
+                                                        @click="send"
+                                                >
                                             </div>
                                         </div>
                                     </div>
