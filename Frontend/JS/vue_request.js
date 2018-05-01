@@ -1,4 +1,4 @@
-import axios from 'axios'
+var axios = require('axios');
 
 
 var name = new Vue({
@@ -10,11 +10,11 @@ var name = new Vue({
     },
 
     mounted(){
-       axios.post('url', localStorage.getItem('user_id')).then(response => {
+       axios.post('url', localStorage.getItem('user_id')).then(function(response){
             this.name = response.data.name;
             this.desc = response.data.desc;
-       }).catch(e => {
-           this.errors.push(e);
+       }).catch(function(e){
+
        });
     },
     delimiters: ["<%","%>"]
@@ -24,17 +24,17 @@ var request = new Vue({
    el: '#request-form',
     data:{
        car: "",
-        age: 0,
+        age: 2000,
         engine: "",
         problem: "",
         user_id: localStorage.getItem('user_id')
     },
     methods: {
        send(){
-           axios.post('url', data).then(request => {
+           axios.post('url', data).then(function(request){
 
-           }).catch(e => {
-              this.errors.push(e);
+           }).catch(function(e){
+
            });
        }
     }

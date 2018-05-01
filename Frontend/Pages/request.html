@@ -2,47 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>KBN Garage</title>
-    <link rel="stylesheet/less" type="text/css" href="CSS/main.less">
-    <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
-    <link rel="stylesheet" type="text/css" href="CSS/request.css">
+    <title>Заявка</title>
+    <!-- Bootsrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <link rel="stylesheet/less" type="text/css" href="/static/main.less" />
+    <link rel="stylesheet" type="text/css" href="/static/normalize.css">
     <!-- LESS JavaScript компілятор -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class ="header">
     <div class="head-logo">
         KBN Garage
         <div class="info">
+            <button id="logout" @click="logout">Вийти</button>
             Діагностика та ремонт автоелектроніки
         </div>
     </div>
     <div class="buttons-line">
         <div class="left">
-            <div class="button-top" id="home">
-                <a href="index.html">
-                    <button class="button-top">Home</button>
-                </a>
+            <div  id="home">
+                <a href="/">
+                    <button class="button-top" data-tooltip="Додому">Home</button></a>
             </div>
-            <div class="button-top" id="faq"><button class="button-top">F.A.Q</button></div>
-            <div class="button-top" id="bio"><a href="BIO.html"><button class="button-top">B.I.O</button></a></div>
+            <div  id="faq"><button class="button-top" data-tooltip="Цікава інформація">F.A.Q</button></div>
+            <div  id="bio">
+                <a href="/BIO">
+                    <button class="button-top" data-tooltip="Інформація про майстра" >B.I.O</button></a>
+            </div>
+
         </div>
         <div class="right">
-            <div class="button-top" id="my-calls"><button class="button-top">Мій кабінет</button></div>
+            <div  id="my-calls">
+                <a :href="href">
+                    <button class="button-top" data-tooltip="Заявки">Мій кабінет</button>
+                </a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="request" style="background-color: black">
     <div class="container">
-        <template id="name">
+        <div id="name">
             <h3 style="color: #ffd600"><%name%></h3>
             <h2 style="color: #ffd600"><%desc%></h2>
-        </template>
+        </div>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-request">
@@ -64,7 +72,9 @@
                                     </div>
                                     <div class="form-group">
                                         <input
-                                                type="number"
+                                                type="range"
+                                                min="2000"
+                                                max="2018"
                                                 name="age"
                                                 id="age"
                                                 tabindex="2"
@@ -121,5 +131,8 @@
 </div>
 <div class="footer">
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="/static/request.js"></script>
 </body>
 </html>

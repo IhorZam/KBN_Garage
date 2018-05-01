@@ -1,4 +1,4 @@
-
+var axios = require('axios');
 
 var all = new Vue({
    el: "#all",
@@ -21,18 +21,23 @@ var all = new Vue({
            this.isLogging = false;
        },
         loginUser(){
-            axios.post('url', {data}).then(response =>{
-                var success = response.data;
-            }).catch(e => {
-               this.errors.push(e);
+            axios.post('/login/', {username: this.resultUsername, password: this.resultPassword}).then(function(response){
+                location.href = '/request'
+            }).catch(function (e) {
+
             });
         },
 
         registerUser(){
-            axios.post('url', {data}).then(response =>{
-                var success = response.data;
-            }).catch(e => {
-                this.errors.push(e);
+            axios.post('/signup/', {
+                username: this.resultUsername,
+                password: this.resultPassword,
+                email: this.resultEmail,
+                telephone: this.resultTelephone
+            }).then(function(response){
+                location.href = '/request'
+            }).catch(function (e) {
+
             });
         }
     }
