@@ -73,3 +73,13 @@ def sign_out(req):
 def authorised(req):
     print(req.user is not None)
     return JsonResponse({'auth': req.user is not None})
+
+
+@csrf_exempt
+def post_req(req):
+    if req.method == 'POST':
+        data = json.loads(req.body.decode('utf-8'))
+        title = data['title']
+        descr = data['descr']
+        user = req.user
+        Request.add_req(user, title, descr)
