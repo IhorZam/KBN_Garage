@@ -1,3 +1,6 @@
+import axios from 'axios'
+import * as response from "vue";
+
 var data_set = {
     engine: {
         name: "Engine",
@@ -91,11 +94,32 @@ var data_set = {
 
 };
 
+
+
+
+
 var sheet = ['engine', 'odo', 'srs', 'immo','abs', 'ecu', 'ps', 'dpf'];
 
 var isLogined = function(){
-  return false;
+    let loggined = false;
+    axios.get('url').then(response => {
+        loggined = response.data;
+        }).catch(e =>{
+        this.errors.push(e);
+    });
+    return loggined;
 };
+
+var room = new Vue({
+    el: '#my-calls',
+    data:{
+        href: ""
+    },
+    mounted(){
+        isLogined()? this.href = "/request" : this.href = "/form";
+    }
+
+});
 
 
 Vue.component('cell', {

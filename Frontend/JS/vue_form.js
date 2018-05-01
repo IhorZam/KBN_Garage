@@ -1,3 +1,4 @@
+import axios from 'axios'
 var all = new Vue({
    el: "#all",
    data: {
@@ -19,11 +20,19 @@ var all = new Vue({
            this.isLogging = false;
        },
         loginUser(){
-
+            axios.post('url', {data}).then(response =>{
+                var success = response.data;
+            }).catch(e => {
+               this.errors.push(e);
+            });
         },
 
         registerUser(){
-
+            axios.post('url', {data}).then(response =>{
+                var success = response.data;
+            }).catch(e => {
+                this.errors.push(e);
+            });
         }
     }
-})
+});

@@ -23,18 +23,22 @@
         <div class="buttons-line">
             <div class="left">
                 <div  id="home">
-                    <a href="index.html">
+                    <a href="/">
                         <button class="button-top" data-tooltip="Додому">Home</button></a>
                 </div>
                 <div  id="faq"><button class="button-top" data-tooltip="Цікава інформація">F.A.Q</button></div>
                 <div  id="bio">
-                    <a href="BIO.html">
+                    <a href="/BIO">
                     <button class="button-top" data-tooltip="Інформація про майстра" >B.I.O</button></a>
                 </div>
 
             </div>
             <div class="right">
-                <div  id="my-calls"><button class="button-top" data-tooltip="Заявки">Мій кабінет</button></div>
+                <div  id="my-calls">
+                    <a :href="href">
+                        <button class="button-top" data-tooltip="Заявки">Мій кабінет</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
