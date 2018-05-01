@@ -52,6 +52,7 @@ var isLogined = function(){
     }).catch(function(e){
 
     });
+    alert(loggined);
     return loggined;
 };
 

@@ -37,7 +37,7 @@ def sign_up(req):
 
 @csrf_exempt
 def sign_in(req):
-    if request.method == 'POST':
+    if req.method == 'POST':
         data = json.loads(req.body.decode('utf-8'))
         username = data['username']
         password = data['password']

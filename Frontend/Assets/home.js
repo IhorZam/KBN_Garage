@@ -116,6 +116,7 @@ var isLogined = function(){
     }).catch(function(e){
 
     });
+    alert(loggined);
     return loggined;
 };
 
@@ -125,7 +126,7 @@ var room = new Vue({
         href: ""
     },
     mounted(){
-        isLogined()? this.href = "/request" : this.href = "/form";
+        isLogined()? this.href = "/room" : this.href = "/form";
     }
 
 });
@@ -140,7 +141,7 @@ var logout = new Vue({
     },
     methods: {
        logout(){
-           axios.post('logout').then(function(responce){}).catch(function(e){});
+           axios.post('/logout/').then(function(responce){}).catch(function(e){});
        }
     }
 
