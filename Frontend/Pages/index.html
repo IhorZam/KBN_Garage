@@ -40,62 +40,59 @@
     </div>
     <div class="center">
         <div class="first line">
-            <div class="blck" id="engine">
-                <a :href="href" class="inner">
-                    <img width="170" height="150" v-bind:src="image"><%message%>
-                </a>
-                <a :href="href" class="hover-inner"><%message2%></a>
-            </div>
+            <cell id="engine"
+                  :message="message"
+                  :image="image"
+                  :message2="message2"
+                  :href="href"
+            ></cell>
         </div>
         <div class="second line">
-            <div class="blck" id="odo" >
-                <a :href="href" class="inner">
-                    <img width="170" height="150" v-bind:src="image"><%message%>
-                </a>
-                <a :href="href" class="hover-inner"><%message2%></a>
-            </div>
-            <div class="blck" id="srs" >
-                <a :href="href" class="inner">
-                    <img width="170" height="150" v-bind:src="image"><%message%>
-                </a>
-                <a :href="href" class="hover-inner"><%message2%></a>
-            </div>
+            <cell id="odo" :message="message"
+                 :image="image"
+                 :message2="message2"
+                 :href="href"
+            ></cell>
+            <cell id="srs"
+                 :message="message"
+                 :image="image"
+                 :message2="message2"
+                 :href="href"
+            ></cell>
         </div>
         <div class="third line">
-            <div class="blck" id="immo" >
-                <a :href="href" class="inner">
-                    <img width="170" height="150" v-bind:src="image"><%message%>
-                </a>
-                <a :href="href" class="hover-inner"><%message2%></a>
-            </div>
-            <div class="blck" id="abs" >
-                <a :href="href" class="inner">
-                    <img width="170" height="150" v-bind:src="image"><%message%>
-                </a>
-                <a :href="href" class="hover-inner"><%message2%></a>
-            </div>
+            <cell id="immo"
+                 :message="message"
+                 :image="image"
+                 :message2="message2"
+                 :href="href"
+            ></cell>
+            <cell id="abs"
+                 :message="message"
+                 :image="image"
+                 :message2="message2"
+                 :href="href"
+            ></cell>
         </div>
         <div class="fourth line">
-            <div class="blck" id="ecu" >
-                <a :href="href" class="inner">
-                    <img width="170" height="150" v-bind:src="image"><%message%>
-                </a>
-                <a :href="href" class="hover-inner"><%message2%></a>
-            </div>
-            <div class="blck" id="ps" >
-                <a :href="href" class="inner">
-                    <img width="170" height="150" v-bind:src="image"><%message%>
-                </a>
-                <a :href="href" class="hover-inner"><%message2%></a>
-            </div>
+            <cell id="ecu" :message="message"
+                 :image="image"
+                 :message2="message2"
+                 :href="href"
+            ></cell>
+            <cell id="ps":message="message"
+                 :image="image"
+                 :message2="message2"
+                 :href="href"
+            ></cell>
         </div>
         <div class="fifth line">
-            <div class="blck" id="dpf">
-                <a :href="href" class="inner">
-                    <%message%>
-                </a>
-                <a :href="href" class="hover-inner"><%message2%></a>
-            </div>
+            <cell id="dpf"
+                 :message="message"
+                 :image="image"
+                 :message2="message2"
+                 :href="href"
+            ></cell>
         </div>
     </div>
 
@@ -103,6 +100,6 @@
 
     <script type="text/javascript" src="/static/main.js"> </script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-    <script type="text/javascript" src="/static/vue_test.js"></script>
+    <script type="text/javascript" src="/static/vue_home.js"></script>
 </body>
 </html>

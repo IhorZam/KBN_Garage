@@ -40,49 +40,96 @@
 </div>
 
 <div class="form">
-    <div class="container">
+    <div class="container" id="all">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="check" v-show="!checked">
+                <button class="cell" @click="login">Увійти</button>
+                <button class="cell" @click="register">Зареєструватись</button>
+            </div>
+            <div class="col-md-8 col-md-offset-2" v-show="checked">
                 <div class="panel panel-login">
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <form id="login-form" action="#" method="post" role="form" style="display: block;">
+                            <div class="col-lg-12" >
+                                <form id="logregform" action="#" method="post" role="form"  style="display: block;">
                                     <h2>Ввійти в профіль</h2>
                                     <div class="form-group">
-                                        <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Логін" value="">
-                                    </div>
+                                        <input
+                                                type="text"
+                                                name="username"
+                                                id="username"
+                                                tabindex="1"
+                                                class="form-control"
+                                                placeholder="Логін"
+                                                value=""
+                                                v-model="resultUsername"
+                                        ></div>
                                     <div class="form-group">
-                                        <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Пароль">
+                                        <input
+                                                type="password"
+                                                name="password"
+                                                id="password"
+                                                tabindex="2"
+                                                class="form-control"
+                                                placeholder="Пароль"
+                                                v-model="resultPassword"
+                                        ></div>
+                                    <div class="form-group" v-show="!isLogging">
+                                        <input
+                                                type="email"
+                                                name="email"
+                                                id="email"
+                                                tabindex="1"
+                                                class="form-control"
+                                                placeholder="Електронна адреса"
+                                                value=""
+                                                v-model="resultEmail">
                                     </div>
-                                    <div class="rem-ent">
+                                    <div class="form-group" v-show="!isLogging">
+                                        <input
+                                                type="text"
+                                                name="phone-number"
+                                                id="phone-number"
+                                                tabindex="2"
+                                                class="form-control"
+                                                placeholder="Номер телефону"
+                                                v-model="resultTelephone"
+                                        >
+                                    </div>
+                                    <div class="rem-ent" v-show="isLogging">
                                         <div class="form-group pull-left checkbox">
-                                            <input id="checkbox1" type="checkbox" name="remember">
+                                            <input
+                                                    id="checkbox1"
+                                                    type="checkbox"
+                                                    name="remember"
+                                                    v-model="rememberMe"
+                                            >
                                             <label for="checkbox1">Запам'ятати мене</label>
                                         </div>
                                         <div class="form-group pull-right">
-                                            <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Ввійти">
+                                            <input
+                                                    type="submit"
+                                                    name="login-submit"
+                                                    id="login-submit"
+                                                    tabindex="4"
+                                                    class="form-control btn btn-login"
+                                                    value="Ввійти"
+                                                    @click="loginUser"
+                                            >
                                         </div>
                                     </div>
-                                </form>
-                                <form id="register-form" action="#" method="post" role="form" style="display: none;">
-                                    <h2>Реєстрація</h2>
-                                    <div class="form-group">
-                                        <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Логін" value="">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Електронна адреса" value="">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Пароль">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" name="phone-number" id="phone-number" tabindex="2" class="form-control" placeholder="Номер телефону">
-                                    </div>
-                                    <div class="form-group">
+                                    <div class="form-group" v-show="!isLogging">
                                         <div class="row">
                                             <div class="col-sm-6 col-sm-offset-3">
-                                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Зареєструватись">
+                                                <input
+                                                        type="submit"
+                                                        name="register-submit"
+                                                        id="register-submit"
+                                                        tabindex="4"
+                                                        class="form-control btn btn-register"
+                                                        value="Зареєструватись"
+                                                        @click="registerUser"
+                                                >
                                             </div>
                                         </div>
                                     </div>
@@ -90,16 +137,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="panel-heading">
-                        <div class="row">
-                            <div class="col-xs-6 tabs">
-                                <a href="#" class="active" id="login-form-link"><div class="login">Вхід</div></a>
-                            </div>
-                            <div class="col-xs-6 tabs">
-                                <a href="#" id="register-form-link"><div class="register">Реєстрація</div></a>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -108,7 +146,7 @@
 <div class="footer">
 
 </div>
-
-<script src="/static/form.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="/static/vue_form.js"></script>
 </body>
 </html>
