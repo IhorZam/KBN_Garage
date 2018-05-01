@@ -18,7 +18,6 @@
     <div class="head-logo">
         KBN Garage
         <div class="info">
-            <button id="logout" @click="logout">Вийти</button>
             Діагностика та ремонт автоелектроніки
         </div>
     </div>
@@ -36,6 +35,7 @@
 
         </div>
         <div class="right">
+            <button id="logout" @click="logout" v-show="isLoggined">Вийти</button>
             <div  id="my-calls">
                 <a :href="href">
                     <button class="button-top" data-tooltip="Заявки">Мій кабінет</button>
@@ -59,6 +59,7 @@
                             <div class="col-lg-12">
                                 <form id="request-form" action="#" method="post" role="form" style="display: block;">
                                     <h2 style="color: #ffd600">Заявка</h2>
+                                    <h3 class="names" >Автомобіль</h3>
                                     <div class="form-group">
                                         <input
                                                 type="text"
@@ -66,11 +67,11 @@
                                                 id="car"
                                                 tabindex="1"
                                                 class="form-control"
-                                                placeholder="Авто"
                                                 value=""
                                                 v-model="car">
                                     </div>
-                                    <div class="form-group">
+                                    <h3 class="names">Рік випуску</h3>
+                                    <div class="form-group" id="age-choose">
                                         <input
                                                 type="range"
                                                 min="2000"
@@ -79,11 +80,12 @@
                                                 id="age"
                                                 tabindex="2"
                                                 class="form-control"
-                                                placeholder="Вік"
                                                 value=""
                                                 v-model="age"
                                         >
+                                        <div class="info"><%age%></div>
                                     </div>
+                                    <h3 class="names">Двигун</h3>
                                     <div class="form-group">
                                         <input
                                                 type="text"
@@ -91,17 +93,16 @@
                                                 id="password"
                                                 tabindex="3"
                                                 class="form-control"
-                                                placeholder="Двигун"
                                                 v-model="engine"
                                         >
                                     </div>
+                                    <h3 class="names" >Опис проблеми</h3>
                                     <div class="form-group">
                                         <textarea
                                                 name="problem"
                                                 id="problem"
                                                 tabindex="4"
                                                 class="form-control"
-                                                placeholder="Опис проблеми"
                                                 v-model="problem"
                                         ></textarea>
                                     </div>

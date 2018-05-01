@@ -172,41 +172,39 @@
 }
 
 .btn-login {
-  background-color: #E8E9EC;
-  width: 100px;
+  background-color: black;
+  width: 170px;
   height: 50px;
   outline: none;
   color: #ffd600;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   padding: 14px 0;
-  text-transform: uppercase;
-  border: none;
+  border: 1px solid silver;
   border-radius: 5px;
-  box-shadow: none;
 }
 
 .btn-login:hover,
 .btn-login:focus {
-  color: #fff;
-  background-color: #ffd600;
+  color: #ffd600;
+  box-shadow: 0 0 5px silver;
+  transition: all 300ms ease-in-out;
 }
 
 .btn-register {
-  background-color: #E8E9EC;
+  background-color: black;
   outline: none;
   color: #ffd600;
-  font-size: 14px;
-  height: auto;
-  font-weight: normal;
+  font-size: 20px;
+  height: 50px;
+  font-weight: bold;
   padding: 14px 0;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 0px;
-  box-shadow: none;
+  border: 1px solid silver;
+  border-radius: 5px;
 }
 .btn-register:hover,
 .btn-register:focus {
-  color: #fff;
-  background-color: #ffd600;
+  color: #ffd600;
+  box-shadow: 0 0 5px silver;
+  transition: all 300ms ease-in-out;
 }

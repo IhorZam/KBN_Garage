@@ -10,7 +10,7 @@ var isLogined = function(){
     var loggined = false;
     axios.get('/check_auth/').then(function (response){
         loggined = response.data.auth;
-        }).catch(function(e){
+    }).catch(function(e){
 
     });
     return loggined;
@@ -30,7 +30,10 @@ var room = new Vue({
 var logout = new Vue({
    el: '#logout',
     data: {
-
+        isLoggined: false
+    },
+    mounted(){
+      this.isLoggined = isLogined();
     },
     methods: {
        logout(){
