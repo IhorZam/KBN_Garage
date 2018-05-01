@@ -1,11 +1,41 @@
+var axios = require('axios');
+
 Vue.component('call', {
+
+    props:[
+      'name',
+      'user',
+      'category',
+      'desc',
+      'status'
+    ],
+
    template: '<div class=\'call\'>' +
-   '<div class="name"></div>' +
-   '<div class="user"></div>' +
+   '<div class="name"><%name%></div>' +
+   '<div class="user"><%user%></div>' +
+       '<div class="category"><%category%></div>' +
    '<button class="description"></button>' +
-   '<div class="status"></div>' +
+       '<div class="detail-desc" v-show="false"><%desc%></div>' +
+   '<div class="status"><%status%></div>' +
    '<button class="change"></button>' +
-   '</div>'
+   '</div>',
+    delimiters: ["<%","%>"]
+
+});
+
+var cell = new Vue({
+    el: "#calls",
+    data:{
+        calls: []
+    },
+    mounted(){
+        axios.get('url').then(function(response){
+            this.calls = response.data.calls;
+        }).catch(function(e){});
+    },
+    delimiters: ["<%","%>"]
+
+
 
 });
 

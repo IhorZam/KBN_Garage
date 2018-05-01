@@ -27,9 +27,8 @@
                 <a href="/">
                     <button class="button-top" data-tooltip="Додому">Home</button></a>
             </div>
-            <div  id="faq"><button class="button-top" data-tooltip="Цікава інформація">F.A.Q</button></div>
             <div  id="bio">
-                <a href="/BIO">
+                <a href="/bio">
                     <button class="button-top" data-tooltip="Інформація про майстра" >B.I.O</button></a>
             </div>
 
@@ -59,12 +58,23 @@
                                 <form id="logregform" action="#" method="post" role="form"  style="display: block;">
                                     <h2 v-show="isLogging">Ввійти в профіль</h2>
                                     <h2 v-show="!isLogging">Зареєструватися</h2>
+                                    <div class="form-group" v-show="!isLogging">
+                                        <input
+                                                type="text"
+                                                name="name"
+                                                id="name"
+                                                tabindex="1"
+                                                class="form-control"
+                                                placeholder="Ім'я та Прізвище"
+                                                value=""
+                                                v-model="resultName"
+                                        ></div>
                                     <div class="form-group">
                                         <input
                                                 type="text"
                                                 name="username"
                                                 id="username"
-                                                tabindex="1"
+                                                tabindex="2"
                                                 class="form-control"
                                                 placeholder="Логін"
                                                 value=""
@@ -75,7 +85,7 @@
                                                 type="password"
                                                 name="password"
                                                 id="password"
-                                                tabindex="2"
+                                                tabindex="3"
                                                 class="form-control"
                                                 placeholder="Пароль"
                                                 v-model="resultPassword"
@@ -85,7 +95,7 @@
                                                 type="email"
                                                 name="email"
                                                 id="email"
-                                                tabindex="1"
+                                                tabindex="4"
                                                 class="form-control"
                                                 placeholder="Електронна адреса"
                                                 value=""
@@ -96,7 +106,7 @@
                                                 type="text"
                                                 name="phone-number"
                                                 id="phone-number"
-                                                tabindex="2"
+                                                tabindex="5"
                                                 class="form-control"
                                                 placeholder="Номер телефону"
                                                 v-model="resultTelephone"

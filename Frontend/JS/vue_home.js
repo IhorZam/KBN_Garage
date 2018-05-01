@@ -22,7 +22,7 @@ var room = new Vue({
         href: ""
     },
     mounted(){
-        isLogined()? this.href = "/request" : this.href = "/form";
+        isLogined()? this.href = "/room" : this.href = "/form";
     }
 
 });

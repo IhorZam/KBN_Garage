@@ -5,6 +5,7 @@ var all = new Vue({
    data: {
        checked: false,
        isLogging: true,
+       resultName: "",
        resultUsername: "",
        resultEmail: "",
        resultPassword: "",
@@ -30,6 +31,7 @@ var all = new Vue({
 
         registerUser(){
             axios.post('/signup/', {
+                name: this.resultName,
                 username: this.resultUsername,
                 password: this.resultPassword,
                 email: this.resultEmail,

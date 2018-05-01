@@ -1,0 +1,97 @@
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#change-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+
+}
+
+#change-info button{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: #ffd600;
+    border: 1px solid silver;
+    border-radius: 5px;
+
+}
+
+#change-info button:hover{
+    box-shadow: 0 0 5px silver;
+    transition: all 300ms ease-in-out;
+}
+
+.call{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-shadow: 0 0 3px silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.call .name{
+    color: #ffd600;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user {
+    color: #ffd600;
+    font-size: 15px;
+}
+
+.category {
+    color: #ffd600;
+    font-size: 15px;
+}
+
+.status{
+    color: #ffd600;
+    font-size: 15px;
+}
+
+.description{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: #ffd600;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.description:hover{
+    box-shadow: silver;
+    transition: all 300ms ease-in-out;
+}
+
+.detail-description{
+    margin: 25px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    color: #ffd600;
+}
+
+.change{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: #ffd600;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+

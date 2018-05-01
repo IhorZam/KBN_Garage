@@ -68,7 +68,6 @@ var logout = new Vue({
         }
     }
 
-
 });
 },{"axios":2}],2:[function(require,module,exports){
 module.exports = require('./lib/axios');

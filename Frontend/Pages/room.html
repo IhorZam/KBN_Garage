@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <link rel="stylesheet/less" type="text/css" href="/static/main.less" />
+    <link rel="stylesheet" type="text/css" href="/static/room.css" />
     <link rel="stylesheet" type="text/css" href="/static/normalize.css">
     <!-- LESS JavaScript компілятор -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
@@ -27,9 +27,8 @@
                 <a href="/">
                     <button class="button-top" data-tooltip="Додому">Home</button></a>
             </div>
-            <div  id="faq"><button class="button-top" data-tooltip="Цікава інформація">F.A.Q</button></div>
             <div  id="bio">
-                <a href="/BIO">
+                <a href="/bio">
                     <button class="button-top" data-tooltip="Інформація про майстра" >B.I.O</button></a>
             </div>
 
@@ -45,10 +44,17 @@
     </div>
 </div>
 <div class="center">
-    <button id="change-info"></button>
+    <div id="change-info">
+        <button>Редагувати</button>
+    </div>
     <div id="calls">
-
-
+        <call v-for="call in calls"
+            name="call.name"
+              user="call.user"
+              category="call.category"
+              decs="call.desc"
+              status="call.status"
+        ></call>
     </div>
 </div>
 <div class="footer">

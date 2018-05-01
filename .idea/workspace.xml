@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7892f3b1-4dbc-457f-9ebe-c0125417b5a1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/room.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/Assets/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Assets/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Assets/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Assets/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Assets/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Assets/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Assets/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Assets/room.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Assets/room.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/JS/vue_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/JS/vue_home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/JS/vue_request.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/JS/vue_room.js" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/JS/vue_room.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/CSS/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/CSS/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/main.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/Pages/CSS/request.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/CSS/request.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/Pages/BIO.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/bio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/Pages/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/Pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/Pages/request.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/Pages/request.html" afterDir="false" />
@@ -35,47 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue_home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue_form.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="request.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Frontend/Pages/request.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Frontend/Pages/CSS/form.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="206" column="17" selection-start-line="206" selection-start-column="17" selection-end-line="206" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -84,16 +39,32 @@
         <entry file="file://$PROJECT_DIR$/Frontend/Pages/room.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Frontend/Pages/CSS/request.css">
+      <file leaf-file-name="request.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Frontend/Pages/request.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="118" column="16" lean-forward="true" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+            <state relative-caret-position="476">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vue_room.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_room.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <element signature="e#290#470#0" />
+                <element signature="e#494#755#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,26 +72,17 @@
       <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Frontend/Pages/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="170">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue_request.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_request.js">
+      <file leaf-file-name="room.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Frontend/Pages/CSS/room.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue_room.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_room.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="311">
+              <caret line="93" column="23" lean-forward="true" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -130,9 +92,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -180,15 +142,17 @@
         <option value="$PROJECT_DIR$/Frontend/JS/data/data.js" />
         <option value="$PROJECT_DIR$/Frontend/Pages/CSS/request.css" />
         <option value="$PROJECT_DIR$/Frontend/Pages/CSS/main.less" />
-        <option value="$PROJECT_DIR$/Frontend/Pages/index.html" />
-        <option value="$PROJECT_DIR$/Frontend/JS/vue_home.js" />
         <option value="$PROJECT_DIR$/Frontend/JS/vue_request.js" />
+        <option value="$PROJECT_DIR$/Frontend/Pages/CSS/form.css" />
+        <option value="$PROJECT_DIR$/Frontend/JS/vue_home.js" />
+        <option value="$PROJECT_DIR$/Frontend/Pages/CSS/кщщь.css" />
+        <option value="$PROJECT_DIR$/Frontend/JS/vue_form.js" />
+        <option value="$PROJECT_DIR$/Frontend/Pages/CSS/room.css" />
         <option value="$PROJECT_DIR$/Frontend/JS/vue_room.js" />
-        <option value="$PROJECT_DIR$/Frontend/Pages/request.html" />
+        <option value="$PROJECT_DIR$/Frontend/Pages/index.html" />
         <option value="$PROJECT_DIR$/Frontend/Pages/room.html" />
         <option value="$PROJECT_DIR$/Frontend/Pages/form.html" />
-        <option value="$PROJECT_DIR$/Frontend/Pages/CSS/form.css" />
-        <option value="$PROJECT_DIR$/Frontend/JS/vue_form.js" />
+        <option value="$PROJECT_DIR$/Frontend/Pages/request.html" />
       </list>
     </option>
   </component>
@@ -472,11 +436,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525193533774</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Design update">
+      <created>1525200273268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1525200273268</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90687000" />
+    <option name="totallyTimeSpent" value="95856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-11" width="1313" height="780" extended-state="6" />
@@ -490,7 +461,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32970452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4992236" visible="true" weight="0.16848674" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4992236" visible="true" weight="0.41809672" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -533,16 +504,10 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Form start" />
     <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Big improovments, template of server requests" />
     <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Added apis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Added apis" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Design update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/IhorZam/KBN_Garage&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;Design update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Frontend/Pages/CSS/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/Pages/Icons/Motorkontrollleucht.svg" />
     <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -659,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/Pages/BIO.html">
+    <entry file="file://$PROJECT_DIR$/Frontend/Pages/bio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
@@ -674,20 +639,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/views/generic/base.py" />
-    <entry file="file://$PROJECT_DIR$/KBN_Garage/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KBN_Garage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KBN_Garage/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -713,9 +664,6 @@
     <entry file="file://$PROJECT_DIR$/KBN_Garage/middleware.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/KBN_Garage/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/Assets/room.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -731,16 +679,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/Assets/request.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/Assets/form.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KBN_Garage/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/JS/data/data.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -770,20 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_room.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/Pages/CSS/request.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63">
@@ -798,41 +722,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Assets/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Pages/CSS/room.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="93" column="23" lean-forward="true" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/Pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="238">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frontend/Pages/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/Pages/room.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KBN_Garage/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KBN_Garage/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KBN_Garage/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1687">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KBN_Garage/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Frontend/Pages/request.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        <state relative-caret-position="476">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/Pages/form.html">
+    <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_room.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Frontend/JS/vue_form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        <state relative-caret-position="141">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#290#470#0" />
+            <element signature="e#494#755#0" />
+          </folding>
         </state>
       </provider>
     </entry>
