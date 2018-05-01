@@ -112,6 +112,7 @@ var sheet = ['engine', 'odo', 'srs', 'immo','abs', 'ecu', 'ps', 'dpf'];
 var isLogined = function(){
     var loggined = false;
     axios.get('/check_auth/').then(function (response){
+        console.log(response.data.auth);
         loggined = response.data.auth;
     }).catch(function(e){
 
@@ -125,7 +126,7 @@ var room = new Vue({
         href: ""
     },
     mounted(){
-        isLogined()? this.href = "/request" : this.href = "/form";
+        isLogined()? this.href = "/room" : this.href = "/form";
     }
 
 });
@@ -140,7 +141,7 @@ var logout = new Vue({
     },
     methods: {
        logout(){
-           axios.post('logout').then(function(responce){}).catch(function(e){});
+           axios.post('/logout/').then(function(responce){}).catch(function(e){});
        }
     }
 
