@@ -38,3 +38,10 @@ def add_user(username, password, email, phone):
 class Phone(models.Model):
     num = models.CharField(max_length=16)
     user = models.OneToOneField(User, on_delete=models.CASCADE)
+
+
+class Request(models.Model):
+    title = models.CharField(max_length=32)
+    descr = models.CharField(max_length=512)
+    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    status = models.CharField(max_length=16)

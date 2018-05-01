@@ -1,5 +1,5 @@
 from django.shortcuts import render_to_response
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponseRedirect
 import json
 from django.views.decorators.csrf import csrf_exempt
 from KBN_Garage.models import *
@@ -10,6 +10,8 @@ def main(req):
 
 
 def request(req):
+    if req.user is None:
+        return HttpResponseRedirect('/form')
     return render_to_response('request.html')
 
 
@@ -22,6 +24,8 @@ def bio(req):
 
 
 def room(req):
+    if req.user is None:
+        return HttpResponseRedirect('/form')
     return render_to_response('room.html')
 
 
@@ -30,6 +34,7 @@ def room(req):
 def sign_up(req):
     if req.method == 'POST':
         data = json.loads(req.body.decode('utf-8'))
+        print(data)
         username = data['username']
         password = data['password']
         email = data['email']
@@ -65,4 +70,5 @@ def sign_out(req):
 
 @csrf_exempt
 def authorised(req):
+    print(req.user is not None)
     return JsonResponse({'auth': req.user is not None})
