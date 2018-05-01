@@ -1,5 +1,4 @@
 import axios from 'axios'
-import * as response from "vue";
 
 var data_set = {
     engine: {
