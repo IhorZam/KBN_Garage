@@ -31,4 +31,5 @@ urlpatterns = [
     url('^logout/$', sign_out),
     url('^check_auth/$', authorised),
     url('^post_req/$', post_req),
+    url('^my_reqs/$', my_reqs)
 ]

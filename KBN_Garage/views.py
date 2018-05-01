@@ -83,3 +83,16 @@ def post_req(req):
         descr = data['descr']
         user = req.user
         Request.add_req(user, title, descr)
+    return JsonResponse({'status': 'ok'})
+
+
+def my_reqs(req):
+    if req.method == 'POST':
+        data = json.loads(req.body.decode('utf-8'))
+        user = req.user
+        reqs = Request.objects.all().filter(author=user)
+        res = []
+        for req in list(reqs)[::-1]:
+            req_dict = vars(req)
+            res.append(req_dict)
+        return JsonResponse(res, safe=False)
