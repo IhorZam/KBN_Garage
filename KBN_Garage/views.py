@@ -88,11 +88,11 @@ def post_req(req):
 
 def my_reqs(req):
     if req.method == 'POST':
-        data = json.loads(req.body.decode('utf-8'))
         user = req.user
         reqs = Request.objects.all().filter(author=user)
         res = []
         for req in list(reqs)[::-1]:
             req_dict = vars(req)
+            del req_dict['_state']
             res.append(req_dict)
         return JsonResponse(res, safe=False)
