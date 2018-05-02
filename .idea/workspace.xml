@@ -39,8 +39,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KBN_Garage/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="706">
+              <caret line="99" column="47" lean-forward="true" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -635,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/KBN_Garage/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="706">
+          <caret line="99" column="47" lean-forward="true" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
