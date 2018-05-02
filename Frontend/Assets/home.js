@@ -139,10 +139,6 @@ sheet.forEach(function (value) {
             message: data_set[value].name,
             message2: data_set[value].tooltip
         },
-
-        methods:{
-        },
-
         delimiters: ["<%","%>"]
 
 

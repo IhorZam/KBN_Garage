@@ -5,7 +5,6 @@ Vue.component('call', {
     props:[
       'name',
       'user',
-      'category',
       'desc',
       'status'
     ],
@@ -20,22 +19,19 @@ Vue.component('call', {
 
 });
 
-var cell = new Vue({
-    el: "#calls",
-    data:{
-        calls: []
-    },
-    mounted(){
-        axios.post('/my_reqs/').then(function(response){
-            console.log(response.data);
-            //this.calls = response.data.calls;
-        }).catch(function(e){});
-    },
-    delimiters: ["<%","%>"]
-
-
-
-});
+var calls_pre = [];
+axios.post('/my_reqs/').then(function(response){
+    var arr = response.data;
+    console.log(arr);
+    calls_pre = arr;
+    var cell = new Vue({
+        el: "#calls",
+        data:{
+            calls: calls_pre
+        },
+        delimiters: ["<%","%>"]
+    });
+}).catch(function(e){});
 
 
 var isLogined = function(){

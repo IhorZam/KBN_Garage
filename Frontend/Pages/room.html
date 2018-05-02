@@ -44,17 +44,14 @@
         </div>
     </div>
 </div>
-<div class="center">
-    <div id="change-info">
-        <button>Редагувати</button>
-    </div>
+<div class="center_calls">
     <div id="calls">
         <call v-for="call in calls"
-            key='call.id'
-            name="call.title"
-              user="call.author_id"
-              decs="call.descr"
-              status="call.status"
+            :key='call.id'
+            :name="call.title"
+              :user="call.author_id"
+              :desc="call.descr"
+              :status="call.status"
         ></call>
     </div>
 </div>

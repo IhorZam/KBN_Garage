@@ -1,8 +1,11 @@
-.center{
+.center_calls{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    width: 100%;
+    background-color: black;
 }
 
 #change-info{
@@ -12,7 +15,6 @@
     align-items: center;
     width: 100%;
     height: 60px;
-
 }
 
 #change-info button{
@@ -32,9 +34,10 @@
 }
 
 .call{
-    width: 100%;
+    width: 350px;
     height: 120px;
     background-color: black;
+    margin: 30px;
     border: 1px solid silver;
     border-radius: 5px;
     box-shadow: 0 0 3px silver;

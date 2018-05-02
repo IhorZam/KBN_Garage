@@ -97,6 +97,6 @@ def my_reqs(req):
         for req in list(reqs)[::-1]:
             req_dict = vars(req)
             del req_dict['_state']
-            req_dict['author_id'] = User.objects.get(req_dict['author_id']).username
+            req_dict['author_id'] = User.objects.get(pk=req_dict['author_id']).username
             res.append(req_dict)
         return JsonResponse(res, safe=False)
