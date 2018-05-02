@@ -86,6 +86,7 @@ def post_req(req):
     return JsonResponse({'status': 'ok'})
 
 
+@csrf_exempt
 def my_reqs(req):
     if req.method == 'POST':
         user = req.user
