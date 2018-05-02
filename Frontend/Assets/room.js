@@ -14,11 +14,8 @@ Vue.component('call', {
    template: '<div class=\'call\'>' +
    '<div class="name"><%name%></div>' +
    '<div class="user"><%user%></div>' +
-       '<div class="category"><%category%></div>' +
-   '<button class="description"></button>' +
-       '<div class="detail-desc" v-show="false"><%desc%></div>' +
+       '<div class="detail-desc"><%desc%></div>' +
    '<div class="status"><%status%></div>' +
-   '<button class="change"></button>' +
    '</div>',
     delimiters: ["<%","%>"]
 

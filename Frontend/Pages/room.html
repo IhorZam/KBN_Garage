@@ -50,10 +50,10 @@
     </div>
     <div id="calls">
         <call v-for="call in calls"
-            name="call.name"
-              user="call.user"
-              category="call.category"
-              decs="call.desc"
+            key='call.id'
+            name="call.title"
+              user="call.author_id"
+              decs="call.descr"
               status="call.status"
         ></call>
     </div>
