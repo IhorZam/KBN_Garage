@@ -94,5 +94,6 @@ def my_reqs(req):
         res = []
         for req in list(reqs)[::-1]:
             req_dict = vars(req)
+            del req_dict['_state']
             res.append(req_dict)
         return JsonResponse(res, safe=False)
