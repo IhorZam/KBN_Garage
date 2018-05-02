@@ -90,10 +90,13 @@ def post_req(req):
 def my_reqs(req):
     if req.method == 'POST':
         user = req.user
-        reqs = Request.objects.all().filter(author=user)
+        reqs = Request.objects.all()
+        if not user.username == 'admin':
+            reqs = reqs.filter(author=user)
         res = []
         for req in list(reqs)[::-1]:
             req_dict = vars(req)
             del req_dict['_state']
+            req_dict['author_id'] = User.objects.get(req_dict['author_id']).username
             res.append(req_dict)
         return JsonResponse(res, safe=False)
