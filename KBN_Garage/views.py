@@ -86,9 +86,9 @@ def post_req(req):
     return JsonResponse({'status': 'ok'})
 
 
+@csrf_exempt
 def my_reqs(req):
     if req.method == 'POST':
-        data = json.loads(req.body.decode('utf-8'))
         user = req.user
         reqs = Request.objects.all().filter(author=user)
         res = []

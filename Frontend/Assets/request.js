@@ -11,12 +11,12 @@ var name = new Vue({
     },
 
     mounted(){
-       axios.post('url', localStorage.getItem('user_id')).then(function(response){
+       /*axios.post('url', localStorage.getItem('user_id')).then(function(response){
             this.name = response.data.name;
             this.desc = response.data.desc;
        }).catch(function(e){
 
-       });
+       });*/
     },
     delimiters: ["<%","%>"]
 });
@@ -44,32 +44,7 @@ var request = new Vue({
     delimiters: ["<%","%>"]
 
 });
-var isLogined = function(){
-    var loggined = false;
-    axios.get('/check_auth/').then(function (response){
-        loggined = response.data.auth;
-    }).catch(function(e){
 
-    });
-    return loggined;
-};
-
-var logout = new Vue({
-    el: '#logout',
-    data: {
-        isLoggined: false
-    },
-    mounted(){
-        this.isLoggined = isLogined();
-    },
-    methods: {
-        logout(){
-            axios.post('logout').then(function(responce){}).catch(function(e){});
-        }
-    }
-
-
-});
 },{"axios":2}],2:[function(require,module,exports){
 module.exports = require('./lib/axios');
 },{"./lib/axios":4}],3:[function(require,module,exports){

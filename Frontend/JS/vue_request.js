@@ -10,12 +10,12 @@ var name = new Vue({
     },
 
     mounted(){
-       axios.post('url', localStorage.getItem('user_id')).then(function(response){
+       /*axios.post('url', localStorage.getItem('user_id')).then(function(response){
             this.name = response.data.name;
             this.desc = response.data.desc;
        }).catch(function(e){
 
-       });
+       });*/
     },
     delimiters: ["<%","%>"]
 });

@@ -30,7 +30,7 @@ var cell = new Vue({
         calls: []
     },
     mounted(){
-        axios.get('my_regs').then(function(response){
+        axios.post('/my_reqs/').then(function(response){
             console.log(response.data);
             //this.calls = response.data.calls;
         }).catch(function(e){});
